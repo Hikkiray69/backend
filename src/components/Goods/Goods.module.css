@@ -545,3 +545,17 @@
     }
 
 }
+
+@media (max-width: 770px) {
+    .oils_title {
+        padding-left: 15px;
+    }
+
+    .recomended_font {
+        padding-left: 15px;
+    }
+
+    .frequently_sold_font {
+        padding-left: 15px;
+    }
+}
