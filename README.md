@@ -1,3 +1,6 @@
+- 👋 Hi, I’m @Hikkiray69
+- ⚡ Fun fact: Этот проект я делал ночью, в перерывах между работой, а бывало даже что на протяжении всей недели без остановки)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
