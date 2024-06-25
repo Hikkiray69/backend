@@ -10,7 +10,6 @@ import User from './img/User.svg';
 import category from './img/category.svg';
 import bin from './img/bin.svg';
 import minibin from './img/minibin.svg';
-import Script from 'next/script'
 
 export default function Header() {
     return (

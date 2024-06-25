@@ -10,18 +10,12 @@ import img_2 from './img/img_2.svg';
 import img_3 from './img/img_3.svg';
 import img_4 from './img/img_4.svg';
 import review from './img/review.svg';
-import buy_bin from './img/buy_bin.svg';
-import buy_bin_active from './img/buy_bin_active.svg';
 import genesis from './img/genesis.png';
 import wheels from './img/wheels.png';
 import autoparts from './img/autoparts.png';
 import whitearrow from './img/whitearrow.svg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-import arrow_left from './img/arrow_left.svg';
-import arrow_right from './img/arrow_right.svg';
 import React, { useRef } from 'react';
-import styless from './carousel.module.scss'
 
 declare global {
     namespace JSX {

@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './Catalog.module.css';
-import representatives from './img/representatives.png';
 import ico_1 from './img/ico_1.svg';
 import ico_2 from './img/ico_2.svg';
 import ico_3 from './img/ico_3.svg';

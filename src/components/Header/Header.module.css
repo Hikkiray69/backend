@@ -4,9 +4,7 @@
     padding: 0px;
     display: inline-block;
     flex-direction: column;
-    /* Добавляем направление колонкой для вертикального растяжения */
     min-height: 141px;
-    /*чтобы контент мог растягивать хедер */
     box-shadow: 0px 5px 20px 0px rgba(44, 41, 51, 0.1);
     background: white;
     position: sticky;

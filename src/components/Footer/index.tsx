@@ -4,8 +4,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import styles from './Footer.module.css';
-import Questions from './img/Questions.svg'
-import Stats from './img/Stats.svg'
 import VISA from './img/VISA.svg'
 import MC from './img/MC.svg'
 import MIR from './img/MIR.svg'

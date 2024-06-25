@@ -216,8 +216,6 @@
     text-decoration: line-through;
 }
 
-
-
 .img {
     margin: 0px;
     transition: 0.3s;
@@ -251,9 +249,6 @@
     fill: transparent;
     transition: 0.3s;
 }
-
-
-
 
 .navigation {
     display: flex;

@@ -9,8 +9,6 @@ import banner2 from './img/banner2.svg'
 import banner3 from './img/banner3.svg'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import arrow_left from './img/arrow_left.svg';
-import arrow_right from './img/arrow_right.svg';
 import React, { useRef } from 'react';
 
 
