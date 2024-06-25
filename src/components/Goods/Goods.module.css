@@ -558,4 +558,8 @@
     .frequently_sold_font {
         padding-left: 15px;
     }
+
+    .group {
+        padding: 0px 15px;
+    }
 }
