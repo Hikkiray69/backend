@@ -1,0 +1,7 @@
+<svg width="40" height="40" viewBox="0 0 40 40" class="buy_bin_fill" xmlns="http://www.w3.org/2000/svg">
+<rect class="buy_bin_stroke" x="1" y="1" width="38" height="38" rx="7"  stroke-width="2"/>
+<path class="buy_bin_stroke" d="M13.873 15L15.408 22.246C15.619 23.244 16.548 23.923 17.564 23.822L24.38 23.14C25.22 23.056 25.916 22.454 26.121 21.635L27.469 16.243C27.627 15.611 27.15 15 26.499 15H18.186"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="buy_bin_stroke" d="M13.874 15L13.224 12H11.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="buy_bin_stroke" d="M25.1093 27.2668C24.9073 27.2668 24.7433 27.4308 24.7453 27.6328C24.7453 27.8348 24.9093 27.9988 25.1113 27.9988C25.3133 27.9988 25.4773 27.8348 25.4773 27.6328C25.4763 27.4308 25.3123 27.2668 25.1093 27.2668"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="buy_bin_stroke" d="M16.6977 27.2663C16.4957 27.2663 16.3317 27.4303 16.3337 27.6323C16.3317 27.8353 16.4967 27.9993 16.6987 27.9993C16.9007 27.9993 17.0647 27.8353 17.0647 27.6333C17.0647 27.4303 16.9007 27.2663 16.6977 27.2663"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

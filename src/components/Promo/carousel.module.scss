@@ -1,0 +1,12 @@
+.carousel {
+  display: grid;
+  width: 1320px;
+  justify-content: center;
+  align-items: center;
+    :global(.control-dots) {
+            display: flex;
+            margin: 0px 0px 73px 70px !important;
+          }
+          
+    
+}

@@ -1,0 +1,812 @@
+.catalog {
+    margin: 40px auto;
+    justify-content: center;
+    min-width: 260px;
+    max-width: 100%;
+    padding: 0px 20px;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 419px);
+    grid-template-rows: repeat(4, 100px);
+    grid-gap: 1px;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    border-radius: 20px 20px 0px 20px;
+    background: #E8E3E3;
+}
+
+.grid_img {
+    padding: 0px 0px 0px 30px;
+}
+
+.grid_1 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    border-radius: 20px 0px 0px 0px;
+    border-color: transparent;
+    transition: 0.3s;
+    width: 100%;
+    height: 100px;
+}
+.grid_1:hover{
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_1_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_1:hover .grid_1_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+
+.grid_2 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    border-color: transparent;
+    transition: 0.3s;
+    justify-self: center;
+    width: 100%;
+    height: 100px;
+}
+.grid_2:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_2_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_2:hover .grid_2_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+
+.grid_3 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    border-radius: 0px 20px 0px 0px;
+    transition: 0.3s;
+    border-color: transparent;
+    justify-self: end;
+    width: 100%;
+    height: 100px;
+}
+.grid_3:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_3_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_3:hover .grid_3_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+
+.grid_4 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    border-color: transparent;
+    transition: 0.3s;
+    align-self: center;
+    width: 100%;
+    height: 100px;
+}
+.grid_4:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_4_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_4:hover .grid_4_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+
+.grid_5 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    transition: 0.3s;
+    border-color: transparent;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    height: 100px;
+}
+.grid_5:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_5_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_5:hover .grid_5_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+
+.grid_6 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    transition: 0.3s;
+    border-color: transparent;
+    align-self: center;
+    justify-self: end;
+    width: 100%;
+    height: 100px;
+}
+.grid_6:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_6_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_6:hover .grid_6_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+
+.grid_7 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    transition: 0.3s;
+    border-color: transparent;
+    align-self: center;
+    width: 100%;
+    height: 100px;
+}
+.grid_7:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_7_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_7:hover .grid_7_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+
+.grid_8 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    transition: 0.3s;
+    border-color: transparent;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    height: 100px;
+}
+.grid_8:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_8_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_8:hover .grid_8_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+
+.grid_9 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    transition: 0.3s;
+    border-color: transparent;
+    align-self: center;
+    justify-self: end;
+    width: 100%;
+    height: 100px;
+}
+.grid_9:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_9_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_9:hover .grid_9_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+.grid_10 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    border-radius: 0px 0px 0px 20px;
+    transition: 0.3s;
+    border-color: transparent;
+    align-self: center;
+    justify-self: end;
+    width: 100%;
+    height: 100px;
+}
+.grid_10:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_10_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_10:hover .grid_10_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+
+.grid_11 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    transition: 0.3s;
+    border-color: transparent;
+    justify-self: center;
+    align-self: end;
+    width: 100%;
+    height: 100px;
+}
+.grid_11:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.1);
+    z-index: 100;
+    transition: 0.3s;
+    border: 1px solid #f4f5f6;
+}
+.grid_11_font {
+    font-family: TT Commons Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+}
+.grid_11:hover .grid_11_font{
+    color: #5946D7;
+    transition: 0.3s;
+}
+
+.grid_12 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    transition: 0.3s;
+    border-color: transparent;
+    justify-self: center;
+    background: url(./img/representatives.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100px;
+}
+
+.grid_12_font {
+    font-family: TT Commons Medium;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+    margin: 0px;
+}
+
+.grid_12:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.3);
+}
+
+.count {
+    font-family: TT Commons Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #505255;
+    margin: 0px 0px 0px 0px;
+}
+
+.text {
+    margin: 0px 0px 0px 20px;
+    display: inline;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+@media (max-width: 1300px) {
+
+
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(364px, 610px));
+        grid-template-rows: repeat(6, 100px);
+        min-width: 729px;
+        width: 100%;
+    }
+    .grid_1 {
+        min-width: 100%;
+        min-height: 100%;
+    }
+    .grid_2 {
+        border-radius: 0px 20px 0px 0px;
+        min-width: 100%;
+        min-height: 100%;
+        justify-self: end;
+    }
+    .grid_3 {
+        border-radius: 0px;
+        min-width: 100%;
+        min-height: 100%;
+        justify-self: start;
+        align-self: center;
+    }
+    .grid_4 {
+        min-width: 100%;
+        min-height: 100%;
+        justify-self: end;
+        align-self: center;
+    }
+    .grid_5 {
+        min-width: 100%;
+        min-height: 100%;
+        justify-self: start;
+        align-self: center;
+    }
+    .grid_6 {
+        min-width: 100%;
+        min-height: 100%;
+        justify-self: end;
+        align-self: center;
+    }
+    .grid_7 {
+        min-width: 100%;
+        min-height: 100%;
+        justify-self: start;
+        align-self: center;
+    }
+    .grid_8 {
+        min-width: 100%;
+        min-height: 100%;
+        justify-self: end;
+        align-self: center;
+    }
+    .grid_9 {
+        min-width: 100%;
+        min-height: 100%;
+        justify-self: start;
+        align-self: center;
+    }
+    .grid_10 {
+        border-radius: 0px;
+        min-width: 100%;
+        min-height: 100%;
+        justify-self: end;
+        align-self: center;
+    }
+    .grid_11 {
+        border-radius: 0px 0px 0px 20px;
+        min-width: 100%;
+        min-height: 100%;
+        align-self: flex-end;
+        justify-self: start;
+    }
+    .grid_12 {
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    .catalog {
+        border-radius: 0px;
+        padding: 0px 15px;
+    }
+
+    .grid_img {
+        padding: 20px 0px 15px 20px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .grid_1_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_2_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_3_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_4_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_5_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_6_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_7_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_8_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_9_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_10_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_11_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid_12_font {
+        line-height : 1.2;
+        margin-right: 20px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(120px, 369px));
+        grid-template-rows: repeat(6, 162px);
+        min-width: 240px;
+        width: 100%;
+        box-shadow: none;
+        background: none;
+        grid-gap: 10px;
+    }
+    .grid_1 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_2 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_3 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_4 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_5 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_6 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_7 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_8 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_9 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_10 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_11 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+    .grid_12 {
+        font-family: TT Commons Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border-radius: 10px;
+        min-width: 100%;
+        min-height: 100%;
+        box-shadow: 0px 4px 10px 0px #0000001A;
+    }
+
+    
+
+
+}
+
+@media (max-width: 413px) {
+
+
+
+    .grid_1_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+
+    .grid_2_font {
+        margin: 0px;
+        font-size: calc(13px + 1vw);
+        width: 120px;
+    }
+    .grid_3_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+    .grid_4_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+    .grid_5_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+    .grid_6_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+    .grid_7_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+    .grid_8_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+    .grid_9_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+    .grid_10_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+    .grid_11_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+    .grid_12_font {
+        font-size: calc(13px + 1vw);
+        margin: 0px;
+        width: 120px;
+    }
+
+}

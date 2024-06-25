@@ -1,0 +1,547 @@
+.goods {
+    background: white;
+}
+
+.content {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0px auto 60px;
+}
+
+.oils {
+    margin: 0px;
+}
+
+.oils_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto 20px auto;
+}
+
+.oils_font {
+    font-family: Stolzl Medium;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0px;
+    text-align: left;
+    height: auto;
+}
+
+.oils_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    background: #F4F5F6;
+    border-radius: 8px;
+}
+
+.oils_button_font {
+    font-family: Stolzl Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin: 0px;
+    color: #5946D7;
+    width: 113px;
+}
+
+.arrow {
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 0px 0px 0px;
+    width: 298px;
+    height: 379px;
+    border: 1px solid #DEDEE2;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.block:hover {
+    box-shadow: 0px 4px 20px 0px #00000012;
+    border-color: #F4F5F6;
+    transition: 0.3s;
+}
+
+.block:hover {
+
+    .buy_bin_fill {
+        fill: #5946D7;
+    }
+
+    .buy_bin_stroke {
+        stroke: white;
+    }
+
+}
+
+.block_carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 0px 0px 0px;
+    width: 300px;
+    height: 410px;
+    border: 1px solid #DEDEE2;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.block_carousel:hover {
+    box-shadow: 0px 4px 20px 0px #00000012;
+    border-color: #F4F5F6;
+    transition: 0.3s;
+}
+
+.block_carousel:hover {
+
+    .buy_bin_fill {
+        fill: #5946D7;
+    }
+
+    .buy_bin_stroke {
+        stroke: white;
+    }
+
+}
+
+.block_info {
+    display: inline;
+    justify-content: space-between;
+    width: 300px;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin: 0px 0px 10px 0px;
+    white-space: nowrap;
+}
+
+.info_font {
+    font-family: TT Commons Medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #7A7680;
+    margin: 0px;
+}
+
+.stars {
+    width: 117px !important;
+    height: 20px !important;
+}
+
+.info_art {
+    color: #505255;
+    font-family: TT Commons Medium;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin: 0px;
+}
+
+.name {
+    margin: 0px 0px 11px 0px;
+}
+
+.name_font {
+    font-family: TT Commons Medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #1B1D1F;
+    margin: 0px;
+    padding: 0px 20px;
+
+}
+
+.price {
+    display: flex;
+    padding: 0px 20px 20px 20px;
+    justify-content: space-between;
+}
+
+.price_font {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.price_stock {
+    font-family: TT Commons Medium;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px;
+    color: #1B1D1F;
+    height: 30px;
+
+}
+
+.price_base {
+    font-family: TT Commons Medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin: 0px;
+    color: #7A7680;
+    height: 30px;
+    text-decoration: line-through;
+}
+
+
+
+.img {
+    margin: 0px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.img:hover {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.3);
+    border-color: #F4F5F6;
+    transition: 0.3s;
+}
+
+.img_goods {
+    width: 240px !important;
+    height: 220px !important;
+}
+
+.buy_bin {
+    height: 40px;
+    width: 40px;
+    z-index: 100;
+}
+
+.buy_bin_fill {
+    fill: transparent;
+    transition: 0.3s;
+}
+
+.buy_bin_stroke {
+    stroke: #5946D7;
+    fill: transparent;
+    transition: 0.3s;
+}
+
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    flex-direction: row;
+}
+
+.genesis {
+    background: #e8edfa;
+    width: 407px;
+    height: 250px;
+
+    position: relative;
+}
+
+.genesis_img {
+    position: relative;
+
+}
+
+.genesis_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 100;
+    position: absolute;
+    padding: 30px 145px 96px 30px;
+    height: 124px;
+}
+
+.genesis_name {
+    font-family: Stolzl Medium;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 232px;
+    height: 64px;
+    margin: 0px;
+}
+
+.genesis_button {
+    background: #5946D7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+    padding: 9px 10px 9px 20px;
+}
+
+.genesis_button_font {
+    font-family: TT Hoves Medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin: 0px;
+    color: white;
+    padding: 0px 10px 0px 0px;
+}
+
+.wheels {
+    background: #e8edfa;
+    width: 407px;
+    height: 250px;
+
+    position: relative;
+}
+
+.wheels_img {
+    position: relative;
+
+}
+
+.wheels_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 100;
+    position: absolute;
+    padding: 30px 145px 96px 30px;
+    height: 124px;
+}
+
+.wheels_name {
+    font-family: Stolzl Medium;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 232px;
+    height: 64px;
+    margin: 0px;
+}
+
+.wheels_button {
+    background: #5946D7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+    padding: 9px 10px 9px 20px;
+}
+
+.wheels_button_font {
+    font-family: TT Hoves Medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin: 0px;
+    color: white;
+    padding: 0px 10px 0px 0px;
+}
+
+.autoparts {
+    background: #e8edfa;
+    width: 407px;
+    height: 250px;
+
+    position: relative;
+}
+
+.autoparts_img {
+    position: relative;
+
+}
+
+.autoparts_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 100;
+    position: absolute;
+    padding: 30px 145px 96px 30px;
+    height: 124px;
+}
+
+.autoparts_name {
+    font-family: Stolzl Medium;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 232px;
+    height: 64px;
+    margin: 0px;
+}
+
+.autoparts_button {
+    background: #5946D7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+
+    padding: 9px 10px 9px 20px;
+}
+
+.autoparts_button_font {
+    font-family: TT Hoves Medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin: 0px;
+    color: white;
+    padding: 0px 10px 0px 0px;
+}
+
+.recomended {
+    margin: 0px;
+}
+
+.recomended_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto 30px auto;
+}
+
+.recomended_font {
+    font-family: Stolzl Medium;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0px;
+    text-align: left;
+    height: auto;
+}
+
+.frequently_sold {
+    margin: 0px;
+}
+
+.frequently_sold_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto 30px auto;
+}
+
+.frequently_sold_font {
+    font-family: Stolzl Medium;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0px;
+    text-align: left;
+    height: auto;
+}
+
+.hasPrev {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    cursor: pointer;
+    top: 0px;
+    bottom: 0px;
+    left: -10px;
+    width: 80px;
+}
+
+.hasNext {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    cursor: pointer;
+    top: 0px;
+    bottom: 0px;
+    right: -10px;
+    width: 80px;
+}
+
+.arrow_left {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.3);
+    border-radius: 10px;
+}
+
+.arrow_right {
+    box-shadow: 0px 4px 10px 0px rgba(00, 00, 00, 0.3);
+    border-radius: 10px;
+}
+
+@media (max-width: 1300px) {
+    .navigation {
+        overflow-x: auto;
+        gap: 20px;
+        padding: 0px 20px;
+        height: 271px;
+        align-items: stretch;
+    }
+
+    .group {
+        overflow-x: auto;
+        gap: 20px;
+        padding: 0px 20px;
+    }
+
+    .oils_title {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .oils_button {
+        display: none;
+    }
+
+    .recomended_font {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .frequently_sold_font {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+}

@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FAFAFD;
+}
+
+head {
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
