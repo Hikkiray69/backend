@@ -112,11 +112,11 @@
 .block_carousel:hover {
 
     .buy_bin_fill {
-        fill: #5946D7;
+        fill: #5946D7 !important;
     }
 
     .buy_bin_stroke {
-        stroke: white;
+        stroke: white !important;
     }
 
 }
