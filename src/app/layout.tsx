@@ -11,8 +11,6 @@ import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
-
 export const metadata: Metadata = {
   title: "oner.ru",
   description: "Тестовый сайт для практики",
